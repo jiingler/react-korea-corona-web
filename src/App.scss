@@ -1,0 +1,77 @@
+@import "./CustomStyle.scss";
+
+.navbar {
+  background-color: $primary;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.region-title {
+  .position-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  .refresh-datetime {
+    font-size: 12px;
+  }
+}
+
+.content {
+  padding-bottom: 50px;
+}
+
+.title {
+  color: $secondary;
+  font-weight: bold;
+}
+
+.title-lg {
+  @extend .title;
+  font-size: 1.5rem;
+}
+
+.title-sm {
+  @extend .title;
+  font-size: 1rem;
+}
+
+.amount-lg {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: $danger;
+  .unit {
+    font-size: 1.5rem;
+    color: black;
+  }
+}
+
+.amount-sm {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  .unit {
+    font-size: 1rem;
+  }
+}
+
+span.unit {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.footer {
+  height:50px;
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width: 100%;
+  button {
+    font-weight: bold;
+    background-color: $primary;
+    color: #fff;
+    width: 50%;
+    height: 50px;
+    border: 1px solid #fff;
+  }
+}
