@@ -65,7 +65,7 @@ const EntireCountry = () => {
 
   
   return (
-    <div className="entire-country container text-center px-0">
+    <div className="entire-country text-center px-0">
       <RegionTitle regionName={'전국'} refreshDateTime={updateTime} />
       {/* <Unit /> */}
       <div className="row gx-0">
