@@ -3,10 +3,6 @@ import Unit from './common/Unit';
 import ItemSm from './common/item_small/Item_sm';
 import ItemLg from './common/item_large/Item_lg';
 
-
-
-
-
 const EntireCountry = ({entireCountryData}) => {
 
   const {
@@ -21,7 +17,7 @@ const EntireCountry = ({entireCountryData}) => {
   } = entireCountryData;
   
   return (
-    <div className="entire-country text-center px-0">
+    <div className="content text-center px-0">
       <RegionTitle regionName={'전국'} refreshDateTime={updateTime} />
       {/* <Unit /> */}
       <div className="row gx-0">
@@ -36,7 +32,7 @@ const EntireCountry = ({entireCountryData}) => {
         </div>
         <div className="col-6 p-3 bg-light">
           <div className="mb-3">
-            <ItemSm title={'완치자수'} amount={totalRecovered} />
+            <ItemSm title={'총 완치자수'} amount={totalRecovered} />
           </div>
           <div>
             <ItemSm title={'오늘 완치자수'} amount={todayRecovered} />
@@ -44,7 +40,7 @@ const EntireCountry = ({entireCountryData}) => {
         </div>
         <div className="col-6 p-3 bg-light">
           <div className="mb-3">
-            <ItemSm title={'사망자수'} amount={totalDeath} />
+            <ItemSm title={'총 사망자수'} amount={totalDeath} />
           </div>
           <div>
             <ItemSm title={'오늘 사망자수'} amount={todayDeath} />
