@@ -1,42 +1,13 @@
-import {useState, useEffect} from 'react';
-
 import RegionTitle from './common/RegionTitle';
 import Unit from './common/Unit';
 import ItemSm from './common/item_small/Item_sm';
 import ItemLg from './common/item_large/Item_lg';
 
-import {fetchJson} from '../api/ApiUtils';
 
-const API_KEY = '7e7c57e81fdf04a63f2a64645c11e1780';
-const ENTIRE_COUNTRY_REQUEST_URL = `https://api.corona-19.kr/korea/?serviceKey=${API_KEY}`
 
-const fetchEntireCountryData = () => {
-  return fetchJson(ENTIRE_COUNTRY_REQUEST_URL).then(data => {
-    return {
-      updateTime: data.updateTime,
-      todayCase: 0,
-      totalCase: data.TotalCase,
-      nowCase: data.NowCase,
-      totalRecovered: data.TotalRecovered,
-      todayRecovered: data.TodayRecovered,
-      totalDeath: data.TotalDeath,
-      todayDeath: data.TodayDeath,
 
-    }
-  });
-}
 
-const EntireCountry = () => {
-  const [entireCountryData, setEntireCountryData] = useState({
-    updateTime: '1970/01/01 00:00:00',
-    todayCase: 0,
-    totalCase: 0,
-    nowCase: 0,
-    totalRecovered: 0,
-    todayRecovered: 0,
-    totalDeath: 0,
-    todayDeath: 0,
-  });
+const EntireCountry = ({entireCountryData}) => {
 
   const {
     updateTime,
@@ -47,22 +18,7 @@ const EntireCountry = () => {
     todayRecovered,
     totalDeath,
     todayDeath,
-  } = entireCountryData
-
-  useEffect(()=>{
-    const fetchData = async () => {
-      const [fetchedEntireCountryData] = await Promise.all([
-        fetchEntireCountryData()
-      ]);
-
-      setEntireCountryData({
-        ...fetchedEntireCountryData,
-      })
-    }
-    
-    fetchData();
-  }, []);
-
+  } = entireCountryData;
   
   return (
     <div className="entire-country text-center px-0">
