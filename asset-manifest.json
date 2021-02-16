@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/korea-corona-data/static/css/main.a116acb9.chunk.css",
-    "main.js": "/korea-corona-data/static/js/main.84e394e3.chunk.js",
-    "main.js.map": "/korea-corona-data/static/js/main.84e394e3.chunk.js.map",
-    "runtime-main.js": "/korea-corona-data/static/js/runtime-main.df43f7a1.js",
-    "runtime-main.js.map": "/korea-corona-data/static/js/runtime-main.df43f7a1.js.map",
-    "static/js/2.902c4b45.chunk.js": "/korea-corona-data/static/js/2.902c4b45.chunk.js",
-    "static/js/2.902c4b45.chunk.js.map": "/korea-corona-data/static/js/2.902c4b45.chunk.js.map",
-    "static/js/3.a731f383.chunk.js": "/korea-corona-data/static/js/3.a731f383.chunk.js",
-    "static/js/3.a731f383.chunk.js.map": "/korea-corona-data/static/js/3.a731f383.chunk.js.map",
-    "index.html": "/korea-corona-data/index.html",
-    "static/css/main.a116acb9.chunk.css.map": "/korea-corona-data/static/css/main.a116acb9.chunk.css.map",
-    "static/js/2.902c4b45.chunk.js.LICENSE.txt": "/korea-corona-data/static/js/2.902c4b45.chunk.js.LICENSE.txt"
+    "main.css": "/react-korea-corona-web/static/css/main.a116acb9.chunk.css",
+    "main.js": "/react-korea-corona-web/static/js/main.84e394e3.chunk.js",
+    "main.js.map": "/react-korea-corona-web/static/js/main.84e394e3.chunk.js.map",
+    "runtime-main.js": "/react-korea-corona-web/static/js/runtime-main.ea7ae22e.js",
+    "runtime-main.js.map": "/react-korea-corona-web/static/js/runtime-main.ea7ae22e.js.map",
+    "static/js/2.902c4b45.chunk.js": "/react-korea-corona-web/static/js/2.902c4b45.chunk.js",
+    "static/js/2.902c4b45.chunk.js.map": "/react-korea-corona-web/static/js/2.902c4b45.chunk.js.map",
+    "static/js/3.a731f383.chunk.js": "/react-korea-corona-web/static/js/3.a731f383.chunk.js",
+    "static/js/3.a731f383.chunk.js.map": "/react-korea-corona-web/static/js/3.a731f383.chunk.js.map",
+    "index.html": "/react-korea-corona-web/index.html",
+    "static/css/main.a116acb9.chunk.css.map": "/react-korea-corona-web/static/css/main.a116acb9.chunk.css.map",
+    "static/js/2.902c4b45.chunk.js.LICENSE.txt": "/react-korea-corona-web/static/js/2.902c4b45.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.df43f7a1.js",
+    "static/js/runtime-main.ea7ae22e.js",
     "static/js/2.902c4b45.chunk.js",
     "static/css/main.a116acb9.chunk.css",
     "static/js/main.84e394e3.chunk.js"
