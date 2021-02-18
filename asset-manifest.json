@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-korea-corona-web/static/css/main.a116acb9.chunk.css",
-    "main.js": "/react-korea-corona-web/static/js/main.74b70463.chunk.js",
-    "main.js.map": "/react-korea-corona-web/static/js/main.74b70463.chunk.js.map",
+    "main.js": "/react-korea-corona-web/static/js/main.4b262cc7.chunk.js",
+    "main.js.map": "/react-korea-corona-web/static/js/main.4b262cc7.chunk.js.map",
     "runtime-main.js": "/react-korea-corona-web/static/js/runtime-main.ea7ae22e.js",
     "runtime-main.js.map": "/react-korea-corona-web/static/js/runtime-main.ea7ae22e.js.map",
     "static/js/2.d2906321.chunk.js": "/react-korea-corona-web/static/js/2.d2906321.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ea7ae22e.js",
     "static/js/2.d2906321.chunk.js",
     "static/css/main.a116acb9.chunk.css",
-    "static/js/main.74b70463.chunk.js"
+    "static/js/main.4b262cc7.chunk.js"
   ]
 }
