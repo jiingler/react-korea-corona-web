@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-korea-corona-web/static/css/main.a116acb9.chunk.css",
-    "main.js": "/react-korea-corona-web/static/js/main.84e394e3.chunk.js",
-    "main.js.map": "/react-korea-corona-web/static/js/main.84e394e3.chunk.js.map",
+    "main.js": "/react-korea-corona-web/static/js/main.74b70463.chunk.js",
+    "main.js.map": "/react-korea-corona-web/static/js/main.74b70463.chunk.js.map",
     "runtime-main.js": "/react-korea-corona-web/static/js/runtime-main.ea7ae22e.js",
     "runtime-main.js.map": "/react-korea-corona-web/static/js/runtime-main.ea7ae22e.js.map",
-    "static/js/2.902c4b45.chunk.js": "/react-korea-corona-web/static/js/2.902c4b45.chunk.js",
-    "static/js/2.902c4b45.chunk.js.map": "/react-korea-corona-web/static/js/2.902c4b45.chunk.js.map",
+    "static/js/2.d2906321.chunk.js": "/react-korea-corona-web/static/js/2.d2906321.chunk.js",
+    "static/js/2.d2906321.chunk.js.map": "/react-korea-corona-web/static/js/2.d2906321.chunk.js.map",
     "static/js/3.a731f383.chunk.js": "/react-korea-corona-web/static/js/3.a731f383.chunk.js",
     "static/js/3.a731f383.chunk.js.map": "/react-korea-corona-web/static/js/3.a731f383.chunk.js.map",
     "index.html": "/react-korea-corona-web/index.html",
     "static/css/main.a116acb9.chunk.css.map": "/react-korea-corona-web/static/css/main.a116acb9.chunk.css.map",
-    "static/js/2.902c4b45.chunk.js.LICENSE.txt": "/react-korea-corona-web/static/js/2.902c4b45.chunk.js.LICENSE.txt"
+    "static/js/2.d2906321.chunk.js.LICENSE.txt": "/react-korea-corona-web/static/js/2.d2906321.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ea7ae22e.js",
-    "static/js/2.902c4b45.chunk.js",
+    "static/js/2.d2906321.chunk.js",
     "static/css/main.a116acb9.chunk.css",
-    "static/js/main.84e394e3.chunk.js"
+    "static/js/main.74b70463.chunk.js"
   ]
 }
